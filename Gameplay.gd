@@ -237,5 +237,6 @@ func genRandomLevel(num_shapes):
 
 
 func _on_Button_pressed():
+	PlayerVars.push_time(-99)
 	get_tree().change_scene("res://Gamecomplete.tscn")
 	return
