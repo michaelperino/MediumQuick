@@ -182,7 +182,7 @@ margin_bottom = 942.0
 rect_pivot_offset = Vector2( -432, 193 )
 custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = ExtResource( 4 )
-text = "Version 1.1 (2023-01-08)"
+text = "Version 1.2 (2023-01-08)"
 
 [connection signal="gui_input" from="MenuOptions/Begin_Rect" to="MenuOptions/Control" method="_on_Begin_Rect_gui_input"]
 [connection signal="toggled" from="MenuOptions/TimerEnable" to="MenuOptions/Control" method="_on_TimerEnable_toggled"]
