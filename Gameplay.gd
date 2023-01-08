@@ -69,6 +69,9 @@ func load_level(level_num):
 		randomize()
 		Order.shuffle()
 		allotedTime += allotedTime*0.2
+		if(PlayerVars.getRandom()):
+			Shapes = [] + Order
+			Shapes.invert()
 	var Timer = get_node("/root/Node/Timer")
 	if PlayerVars.getTimer() and not PlayerVars.getRandom():
 		Timer.setTime(allotedTime)
@@ -143,14 +146,21 @@ func _draw():
 
 func _input(event):
 	if event is InputEventMouseButton:
-		if event.button_index == BUTTON_LEFT and event.pressed:
+		if event.button_index == BUTTON_LEFT and (event.pressed or event.doubleclick):
 			if Status == "Playing":
 				var ClickedShape = null
 				print("Left button was clicked at ", event.position)
+				event.position[0] += 0.01
+				event.position[1] += 0.01
 				for shape in range(len(Shapes)-1,-1,-1):
-					if colldet.is_inside_polygon(Shapes[shape]["points"],get_viewport().get_mouse_position()):
-						ClickedShape = Shapes[shape]
-						break
+					if Shapes[shape]["type"] == "circle":
+						if colldet.is_inside_circle(Vector2(Shapes[shape]["center"]["x"],Shapes[shape]["center"]["y"]),Shapes[shape]["size"],event.position):
+							ClickedShape = Shapes[shape]
+							break
+					else:
+						if colldet.is_inside_polygon(Shapes[shape]["points"],event.position):
+							ClickedShape = Shapes[shape]
+							break
 				if ClickedShape != null:
 					print(ClickedShape["center"])
 					Shapes.erase(ClickedShape)
@@ -160,6 +170,8 @@ func _input(event):
 					else:
 						userLost()
 						print("WRONG")
+				else:
+					print("No shape? ",event.position)
 				if ClickedShape == null and PlayerVars.getNoShapeKill():
 					userLost()
 				if Order and currshape >= len(Order) and Status == "Playing":
@@ -202,8 +214,8 @@ func genRandomLevel(num_shapes):
 	var rand_shape_list = []
 	var rand_shape_locs = []
 	for i in range(num_shapes):
-		var x = rng.randi_range(100,1100)
-		var y = rng.randi_range(150,750)
+		var x = rng.randi_range(130,1070)
+		var y = rng.randi_range(170,740)
 		var size = rng.randi_range(40,100)
 		rand_shape_locs.append(Vector3(x,y,size*1.1))
 		if test_circ_enc(rand_shape_locs):

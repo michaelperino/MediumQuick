@@ -86,7 +86,7 @@ func star_calc(center,size):
 	
 func circle_calc(center,size):
 	var points = PoolVector2Array()
-	var num_angles = 30
+	var num_angles = 60
 	
 	for i in range(num_angles):
 		points.push_back(center + Vector2(cos(i*2*3.14159/num_angles), sin(i*2*3.14159/num_angles)) * size)

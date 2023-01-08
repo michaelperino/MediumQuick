@@ -1,8 +1,9 @@
-[gd_scene load_steps=5 format=2]
+[gd_scene load_steps=6 format=2]
 
 [ext_resource path="res://fontfiles/menu_medium.tres" type="DynamicFont" id=1]
 [ext_resource path="res://fontfiles/menu_larger.tres" type="DynamicFont" id=2]
 [ext_resource path="res://extra_menu_scripts/side_triangles.gd" type="Script" id=3]
+[ext_resource path="res://fontfiles/game_font.tres" type="DynamicFont" id=4]
 
 [sub_resource type="StyleBoxEmpty" id=1]
 
@@ -160,6 +161,28 @@ custom_colors/font_color_selected = Color( 0.0862745, 0.0745098, 0.0745098, 1 )
 custom_fonts/normal_font = ExtResource( 1 )
 text = "Enable Click-Nothing Kills"
 scroll_active = false
+
+[node name="Label" type="Label" parent="MenuOptions"]
+margin_left = 85.0
+margin_top = 357.0
+margin_right = 1165.0
+margin_bottom = 468.0
+rect_pivot_offset = Vector2( -432, 193 )
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = ExtResource( 4 )
+text = "To win, click all the shapes on the screen in the order shown at the top of your screen within the time limit.
+
+Note that certain combinations or Order Shuffle and All Random Levels can be impossible."
+
+[node name="Label2" type="Label" parent="MenuOptions"]
+margin_left = 1023.0
+margin_top = 876.0
+margin_right = 1213.0
+margin_bottom = 942.0
+rect_pivot_offset = Vector2( -432, 193 )
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = ExtResource( 4 )
+text = "Version 1.1 (2023-01-08)"
 
 [connection signal="gui_input" from="MenuOptions/Begin_Rect" to="MenuOptions/Control" method="_on_Begin_Rect_gui_input"]
 [connection signal="toggled" from="MenuOptions/TimerEnable" to="MenuOptions/Control" method="_on_TimerEnable_toggled"]
