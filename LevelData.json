@@ -1,0 +1,1031 @@
+{
+	"levels": [
+		{
+			"level": 1,
+			"time": 4,
+			"order":
+			[
+				{
+					"type": "circle",
+					"color": "RED"
+				},
+				{
+					"type": "square",
+					"color": "ORANGE"
+				},
+				{
+					"type": "penta",
+					"color": "KHAKI"
+				},
+				{
+					"type": "square",
+					"color": "PALE GREEN"
+				},
+				{
+					"type": "circle",
+					"color": "BLUE"
+				}
+			],
+			"shapes": 
+			[
+				{
+					"type": "circle",
+					"center": 
+						{
+							"x": 333,
+							"y": 337
+						},
+					"color": "RED",
+					"size": 170
+				},
+				{
+					"type": "square",
+					"center":
+						{
+							"x": 491,
+							"y": 486
+						},
+					"color": "ORANGE",
+					"size": 136
+				},
+				{
+					"type": "penta",
+					"center":
+						{
+							"x": 658,
+							"y": 576
+						},
+					"color": "KHAKI",
+					"size": 120
+				},
+				{
+					"type": "square",
+					"center":
+					{
+						"x": 794,
+						"y": 641
+					},
+					"color": "PALE GREEN",
+					"size": 84
+				},
+				{
+					"type": "circle",
+					"center": 
+						{
+							"x": 920,
+							"y": 673
+						},
+					"color": "BLUE",
+					"size": 56
+				}
+			]
+		},
+		{
+			"level": 2,
+			"time": 4,
+			"order":
+			[
+				{
+					"type": "circle",
+					"color": "RED"
+				},
+				{
+					"type": "circle",
+					"color": "BLUE"
+				},
+				{
+					"type": "circle",
+					"color": "RED"
+				},
+				{
+					"type": "circle",
+					"color": "BLUE"
+				},
+				{
+					"type": "circle",
+					"color": "RED"
+				},
+				{
+					"type": "circle",
+					"color": "BLUE"
+				},
+				{
+					"type": "circle",
+					"color": "RED"
+				},
+				{
+					"type": "circle",
+					"color": "BLUE"
+				},
+				{
+					"type": "star",
+					"color": "YELLOW"
+				}
+			],
+			"shapes": 
+			[
+				{
+					"type": "circle",
+					"center": {
+						"x": 240,
+						"y": 200
+					},
+					"color": "RED",
+					"size": 80
+				},
+				{
+					"type": "circle",
+					"center": {
+						"x": 960,
+						"y": 200
+					},
+					"color": "BLUE",
+					"size": 80
+				},
+				{
+					"type": "circle",
+					"center": {
+						"x": 210,
+						"y": 390
+					},
+					"color": "RED",
+					"size": 75
+				},
+				{
+					"type": "circle",
+					"center": {
+						"x": 990,
+						"y": 390
+					},
+					"color": "BLUE",
+					"size": 75
+				},
+				{
+					"type": "circle",
+					"center": {
+						"x": 180,
+						"y": 560
+					},
+					"color": "RED",
+					"size": 70
+				},
+				{
+					"type": "circle",
+					"center": {
+						"x": 1020,
+						"y": 560
+					},
+					"color": "BLUE",
+					"size": 70
+				},
+				{
+					"type": "circle",
+					"center": {
+						"x": 150,
+						"y": 730
+					},
+					"color": "RED",
+					"size": 65
+				},
+				{
+					"type": "circle",
+					"center": {
+						"x": 1050,
+						"y": 730
+					},
+					"color": "BLUE",
+					"size": 65
+				},
+				{
+					"type": "star",
+					"center": {
+						"x": 600,
+						"y": 600
+					},
+					"color": "YELLOW",
+					"size": 200
+				}
+			]
+		},
+		{
+			"level": 3,
+			"time": 6,
+			"order":
+			[
+				{
+					"type": "circle",
+					"color": "RED"
+				},
+				{
+					"type": "circle",
+					"color": "RED"
+				},
+				{
+					"type": "circle",
+					"color": "BLUE"
+				},
+				{
+					"type": "circle",
+					"color": "GOLD"
+				},
+				{
+					"type": "circle",
+					"color": "BLUE"
+				},
+				{
+					"type": "circle",
+					"color": "PURPLE"
+				},
+				{
+					"type": "circle",
+					"color": "RED"
+				},
+				{
+					"type": "circle",
+					"color": "BLUE"
+				},
+				{
+					"type": "circle",
+					"color": "PURPLE"
+				},
+				{
+					"type": "circle",
+					"color": "RED"
+				},
+				{
+					"type": "circle",
+					"color": "BLUE"
+				},
+				{
+					"type": "circle",
+					"color": "GOLD"
+				}
+			],
+			"shapes": 
+			[
+				{
+					"type": "circle",
+					"center": {
+						"x": 200,
+						"y": 400
+					},
+					"color": "RED",
+					"size": 60
+				},
+				{
+					"type": "circle",
+					"center": {
+						"x": 175,
+						"y": 575
+					},
+					"color": "RED",
+					"size": 50
+				},
+				{
+					"type": "circle",
+					"center": {
+						"x": 150,
+						"y": 750
+					},
+					"color": "RED",
+					"size": 40
+				},
+				{
+					"type": "circle",
+					"center": {
+						"x": 225,
+						"y": 225
+					},
+					"color": "RED",
+					"size": 70
+				},
+				{
+					"type": "circle",
+					"center": {
+						"x": 440,
+						"y": 400
+					},
+					"color": "GOLD",
+					"size": 60
+				},
+				{
+					"type": "circle",
+					"center": {
+						"x": 410,
+						"y": 575
+					},
+					"color": "PURPLE",
+					"size": 50
+				},
+				{
+					"type": "circle",
+					"center": {
+						"x": 760,
+						"y": 400
+					},
+					"color": "GOLD",
+					"size": 60
+				},
+				{
+					"type": "circle",
+					"center": {
+						"x": 790,
+						"y": 575
+					},
+					"color": "PURPLE",
+					"size": 50
+				},
+				{
+					"type": "circle",
+					"center": {
+						"x": 975,
+						"y": 225
+					},
+					"color": "BLUE",
+					"size": 70
+				},
+				{
+					"type": "circle",
+					"center": {
+						"x": 1000,
+						"y": 400
+					},
+					"color": "BLUE",
+					"size": 60
+				},
+				{
+					"type": "circle",
+					"center": {
+						"x": 1025,
+						"y": 575
+					},
+					"color": "BLUE",
+					"size": 50
+				},
+				{
+					"type": "circle",
+					"center": {
+						"x": 1050,
+						"y": 750
+					},
+					"color": "BLUE",
+					"size": 40
+				}
+			]
+		},
+		{
+			"level": 4,
+			"time": 8,
+			"order":
+			[
+				{
+					"type": "star",
+					"color": "RED"
+				},
+				{
+					"type": "circle",
+					"color": "RED"
+				},
+				{
+					"type": "square",
+					"color": "RED"
+				},
+				{
+					"type": "penta",
+					"color": "RED"
+				},
+				{
+					"type": "penta",
+					"color": "RED"
+				},
+				{
+					"type": "square",
+					"color": "RED"
+				},
+				{
+					"type": "circle",
+					"color": "RED"
+				},
+				{
+					"type": "star",
+					"color": "RED"
+				},
+				{
+					"type": "penta",
+					"color": "RED"
+				},
+				{
+					"type": "circle",
+					"color": "RED"
+				},
+				{
+					"type": "circle",
+					"color": "RED"
+				},
+				{
+					"type": "star",
+					"color": "RED"
+				},
+				{
+					"type": "square",
+					"color": "RED"
+				},
+				{
+					"type": "star",
+					"color": "RED"
+				},
+				{
+					"type": "penta",
+					"color": "RED"
+				},
+				{
+					"type": "square",
+					"color": "RED"
+				}
+			],
+			"shapes": 
+			[
+			 {
+			   "type": "square",
+			   "center": {
+				  "x": 140,
+				  "y": 200
+			   },
+			   "color": "RED",
+			   "size": 40
+			},
+			 {
+			   "type": "square",
+			   "center": {
+				  "x": 180,
+				  "y": 350
+			   },
+			   "color": "RED",
+			   "size": 50
+			},
+			 {
+			   "type": "square",
+			   "center": {
+				  "x": 210,
+				  "y": 525
+			   },
+			   "color": "RED",
+			   "size": 60
+			},
+			 {
+			   "type": "square",
+			   "center": {
+				  "x": 240,
+				  "y": 700
+			   },
+			   "color": "RED",
+			   "size": 70
+			},
+			 {
+			   "type": "circle",
+			   "center": {
+				  "x": 350,
+				  "y": 200
+			   },
+			   "color": "RED",
+			   "size": 40
+			},
+			 {
+			   "type": "circle",
+			   "center": {
+				  "x": 380,
+				  "y": 350
+			   },
+			   "color": "RED",
+			   "size": 50
+			},
+			 {
+			   "type": "circle",
+			   "center": {
+				  "x": 410,
+				  "y": 525
+			   },
+			   "color": "RED",
+			   "size": 60
+			},
+			 {
+			   "type": "circle",
+			   "center": {
+				  "x": 440,
+				  "y": 700
+			   },
+			   "color": "RED",
+			   "size": 70
+			},
+			 {
+			   "type": "star",
+			   "center": {
+				  "x": 1060,
+				  "y": 200
+			   },
+			   "color": "RED",
+			   "size": 40
+			},
+			 {
+			   "type": "star",
+			   "center": {
+				  "x": 1020,
+				  "y": 350
+			   },
+			   "color": "RED",
+			   "size": 50
+			},
+			 {
+			   "type": "star",
+			   "center": {
+				  "x": 990,
+				  "y": 525
+			   },
+			   "color": "RED",
+			   "size": 60
+			},
+			 {
+			   "type": "star",
+			   "center": {
+				  "x": 960,
+				  "y": 700
+			   },
+			   "color": "RED",
+			   "size": 70
+			},
+			 {
+			   "type": "penta",
+			   "center": {
+				  "x": 850,
+				  "y": 200
+			   },
+			   "color": "RED",
+			   "size": 40
+			},
+			 {
+			   "type": "penta",
+			   "center": {
+				  "x": 820,
+				  "y": 350
+			   },
+			   "color": "RED",
+			   "size": 50
+			},
+			 {
+			   "type": "penta",
+			   "center": {
+				  "x": 790,
+				  "y": 525
+			   },
+			   "color": "RED",
+			   "size": 60
+			},
+			 {
+			   "type": "penta",
+			   "center": {
+				  "x": 760,
+				  "y": 700
+			   },
+			   "color": "RED",
+			   "size": 70
+			}
+			]
+		},
+		{
+			"level": 5,
+			"time": 12,
+			"order":
+			[
+ {
+   "type": "penta",
+   "color": "RED"
+ },
+ {
+   "type": "penta",
+   "color": "MEDIUM VIOLET RED"
+ },
+ {
+   "type": "star",
+   "color": "RED"
+ },
+ {
+   "type": "star",
+   "color": "ROYAL BLUE"
+ },
+ {
+   "type": "star",
+   "color": "ORANGE"
+ },
+ {
+   "type": "star",
+   "color": "GRAY / GREY"
+ },
+ {
+   "type": "penta",
+   "color": "ROYAL BLUE"
+ },
+ {
+   "type": "penta",
+   "color": "ORANGE"
+ },
+ {
+   "type": "star",
+   "color": "MEDIUM VIOLET RED"
+ },
+ {
+   "type": "star",
+   "color": "YELLOW"
+ },
+ {
+   "type": "penta",
+   "color": "DARK KHAKI"
+ },
+ {
+   "type": "star",
+   "color": "GRAY / GREY"
+ },
+ {
+   "type": "penta",
+   "color": "YELLOW"
+ },
+ {
+   "type": "star",
+   "color": "DARK KHAKI"
+ }
+],
+			"shapes": 
+			[
+  {
+     "type":"star","color":"DARK KHAKI","center":{"x":663,"y":565},"size":38.5
+  },
+  {
+     "type":"penta","color":"YELLOW","center":{"x":575,"y":565},"size":40.5
+  },
+  {
+     "type":"star","color":"GRAY / GREY","center":{"x":936,"y":265},"size":98
+  },
+  {
+     "type":"penta","color":"DARK KHAKI","center":{"x":575,"y":327},"size":40.5
+  },
+  {
+     "type":"star","color":"YELLOW","center":{"x":488,"y":327},"size":38.5
+  },
+  {
+     "type":"star","color":"MEDIUM VIOLET RED","center":{"x":936,"y":637},"size":98
+  },
+  {
+     "type":"penta","color":"ORANGE","center":{"x":383,"y":310},"size":60
+  },
+  {
+     "type":"penta","color":"ROYAL BLUE","center":{"x":765,"y":602},"size":60
+  },
+  {
+     "type":"star","color":"GRAY / GREY","center":{"x":211,"y":637},"size":98
+  },
+  {
+     "type":"star","color":"ORANGE","center":{"x":488,"y":565},"size":38.5
+  },
+  {
+     "type":"star","color":"ROYAL BLUE","center":{"x":663,"y":327},"size":38.5
+  },
+  {
+     "type":"star","color":"RED","center":{"x":211,"y":265},"size":98
+  },
+  {
+     "type":"penta","color":"MEDIUM VIOLET RED","center":{"x":765,"y":310},"size":60
+  },
+  {
+     "type":"penta","color":"RED","center":{"x":383,"y":602},"size":60
+  }
+]
+		},
+		{
+			"level": 6,
+			"time": 12,
+			"order":
+			[
+ {
+   "type": "star",
+   "color": "ORANGE"
+ },
+ {
+   "type": "star",
+   "color": "CRIMSON"
+ },
+ {
+   "type": "star",
+   "color": "CRIMSON"
+ },
+ {
+   "type": "star",
+   "color": "CRIMSON"
+ },
+ {
+   "type": "star",
+   "color": "ORANGE"
+ },
+ {
+   "type": "star",
+   "color": "CRIMSON"
+ },
+ {
+   "type": "star",
+   "color": "ORANGE"
+ },
+ {
+   "type": "star",
+   "color": "ORANGE"
+ },
+ {
+   "type": "star",
+   "color": "CRIMSON"
+ },
+ {
+   "type": "star",
+   "color": "ORANGE"
+ },
+ {
+   "type": "star",
+   "color": "CRIMSON"
+ },
+ {
+   "type": "star",
+   "color": "CRIMSON"
+ },
+ {
+   "type": "star",
+   "color": "ORANGE"
+ },
+ {
+   "type": "star",
+   "color": "ORANGE"
+ },
+ {
+   "type": "star",
+   "color": "ORANGE"
+ },
+ {
+   "type": "star",
+   "color": "ORANGE"
+ },
+ {
+   "type": "star",
+   "color": "CRIMSON"
+ },
+ {
+   "type": "star",
+   "color": "ORANGE"
+ },
+ {
+   "type": "star",
+   "color": "CRIMSON"
+ },
+ {
+   "type": "star",
+   "color": "CRIMSON"
+ },
+ {
+   "type": "star",
+   "color": "CRIMSON"
+ }
+],
+			"shapes": 
+				[{"type": "star", "color": "CRIMSON", "center": {"x": 1050.1083032490974, "y": 626.3843648208469}, "size": 74.0}, {"type": "star", "color": "CRIMSON", "center": {"x": 447.0758122743682, "y": 627.3615635179153}, "size": 74.0}, {"type": "star", "color": "ORANGE", "center": {"x": 296.3176895306859, "y": 627.3615635179153}, "size": 74.0}, {"type": "star", "color": "ORANGE", "center": {"x": 899.3501805054152, "y": 627.3615635179153}, "size": 74.0}, {"type": "star", "color": "CRIMSON", "center": {"x": 748.5920577617328, "y": 627.3615635179153}, "size": 74.0}, {"type": "star", "color": "ORANGE", "center": {"x": 597.8339350180505, "y": 627.3615635179153}, "size": 74.0}, {"type": "star", "color": "CRIMSON", "center": {"x": 145.5595667870036, "y": 627.3615635179153}, "size": 74.0}, {"type": "star", "color": "CRIMSON", "center": {"x": 899.3501805054152, "y": 435.83061889250814}, "size": 74.0}, {"type": "star", "color": "ORANGE", "center": {"x": 748.5920577617328, "y": 435.83061889250814}, "size": 74.0}, {"type": "star", "color": "CRIMSON", "center": {"x": 597.8339350180505, "y": 435.83061889250814}, "size": 74.0}, {"type": "star", "color": "ORANGE", "center": {"x": 447.0758122743682, "y": 435.83061889250814}, "size": 74.0}, {"type": "star", "color": "CRIMSON", "center": {"x": 296.3176895306859, "y": 435.83061889250814}, "size": 74.0}, {"type": "star", "color": "ORANGE", "center": {"x": 145.5595667870036, "y": 435.83061889250814}, "size": 74.0}, {"type": "star", "color": "ORANGE", "center": {"x": 1050.9747292418772, "y": 435.83061889250814}, "size": 74.0}, {"type": "star", "color": "CRIMSON", "center": {"x": 1050.1083032490974, "y": 244.29967426710098}, "size": 74.0}, {"type": "star", "color": "ORANGE", "center": {"x": 899.3501805054152, "y": 244.29967426710098}, "size": 74.0}, {"type": "star", "color": "CRIMSON", "center": {"x": 748.5920577617328, "y": 244.29967426710098}, "size": 74.0}, {"type": "star", "color": "ORANGE", "center": {"x": 597.8339350180505, "y": 244.29967426710098}, "size": 74.0}, {"type": "star", "color": "CRIMSON", "center": {"x": 447.0758122743682, "y": 244.29967426710098}, "size": 74.0}, {"type": "star", "color": "ORANGE", "center": {"x": 296.3176895306859, "y": 244.29967426710098}, "size": 74.0}, {"type": "star", "color": "CRIMSON", "center": {"x": 145.5595667870036, "y": 244.29967426710098}, "size": 74.0}]
+
+		},
+		{
+			"level": 7,
+			"time": 4.8,
+			"order":
+			[
+ {
+   "type": "penta",
+   "color": "MEDIUM VIOLET RED"
+ },
+ {
+   "type": "star",
+   "color": "CRIMSON"
+ },
+ {
+   "type": "star",
+   "color": "ROYAL BLUE"
+ },
+ {
+   "type": "star",
+   "color": "GRAY / GREY"
+ },
+ {
+   "type": "penta",
+   "color": "ORANGE"
+ },
+ {
+   "type": "star",
+   "color": "YELLOW"
+ },
+ {
+   "type": "penta",
+   "color": "DARK KHAKI"
+ },
+ {
+   "type": "penta",
+   "color": "YELLOW"
+ }
+],
+			"shapes": 
+				[{"type": "penta", "color": "YELLOW", "center": {"x": 604.9803407601572, "y": 678.4339747843397}, "size": 40.0}, {"type": "star", "color": "YELLOW", "center": {"x": 444.0366972477064, "y": 566.1579296615793}, "size": 40.0}, {"type": "star", "color": "ROYAL BLUE", "center": {"x": 764.35124508519, "y": 565.5607166556072}, "size": 40.0}, {"type": "penta", "color": "MEDIUM VIOLET RED", "center": {"x": 817.3001310615989, "y": 477.7704047777041}, "size": 64.0}, {"type": "penta", "color": "ORANGE", "center": {"x": 390.56356487549147, "y": 477.1731917717319}, "size": 64.0}, {"type": "penta", "color": "DARK KHAKI", "center": {"x": 602.8833551769332, "y": 283.07896483078963}, "size": 74.0}, {"type": "star", "color": "GRAY / GREY", "center": {"x": 975.6225425950197, "y": 408.49369608493697}, "size": 140.0}, {"type": "star", "color": "CRIMSON", "center": {"x": 223.32896461336827, "y": 409.6881220968812}, "size": 140.0}]
+
+		},
+		{
+			"level": 8,
+			"time": 6.7,
+			"order":
+			[
+ {
+   "type": "penta",
+   "color": "ROYAL BLUE"
+ },
+ {
+   "type": "star",
+   "color": "ROYAL BLUE"
+ },
+ {
+   "type": "square",
+   "color": "ORANGE"
+ },
+ {
+   "type": "circle",
+   "color": "MEDIUM VIOLET RED"
+ },
+ {
+   "type": "star",
+   "color": "MEDIUM VIOLET RED"
+ },
+ {
+   "type": "square",
+   "color": "ROYAL BLUE"
+ },
+ {
+   "type": "circle",
+   "color": "ROYAL BLUE"
+ },
+ {
+   "type": "penta",
+   "color": "ORANGE"
+ },
+ {
+   "type": "penta",
+   "color": "MEDIUM VIOLET RED"
+ },
+ {
+   "type": "square",
+   "color": "MEDIUM VIOLET RED"
+ }
+ ],
+ "shapes": 
+				[{"type": "star", "color": "MEDIUM VIOLET RED", "center": {"x": 776.4089121887287, "y": 671.2674187126742}, "size": 38.791909461058935}, {"type": "penta", "color": "ROYAL BLUE", "center": {"x": 1003.4076015727392, "y": 671.2674187126742}, "size": 39.23330192899568}, {"type": "circle", "color": "MEDIUM VIOLET RED", "center": {"x": 417.30013106159896, "y": 666.4897146648972}, "size": 36.63350773388878}, {"type": "square", "color": "ROYAL BLUE", "center": {"x": 190.8256880733945, "y": 667.0869276708693}, "size": 50.3841492932053}, {"type": "penta", "color": "ORANGE", "center": {"x": 190.8256880733945, "y": 434.17385534173854}, "size": 38.99564327285522}, {"type": "square", "color": "ORANGE", "center": {"x": 1003.4076015727392, "y": 429.99336429993366}, "size": 50.38911092686593}, {"type": "star", "color": "ROYAL BLUE", "center": {"x": 417.824377457405, "y": 197.67750497677505}, "size": 38.61906796338495}, {"type": "penta", "color": "MEDIUM VIOLET RED", "center": {"x": 1003.4076015727392, "y": 197.67750497677505}, "size": 39.15779592484403}, {"type": "circle", "color": "ROYAL BLUE", "center": {"x": 776.4089121887287, "y": 192.89980092899802}, "size": 36.61030156595431}, {"type": "square", "color": "MEDIUM VIOLET RED", "center": {"x": 190.8256880733945, "y": 192.89980092899802}, "size": 50.73521952253681}]
+
+		}
+	],
+	"colors": {
+		"BGCOLOR": [235,235,235],
+		"MAROON": [128,0,0],
+		"DARK RED": [139,0,0],
+		"BROWN": [165,42,42],
+		"FIREBRICK": [178,34,34],
+		"CRIMSON": [220,20,60],
+		"RED": [255,0,0],
+		"TOMATO": [255,99,71],
+		"CORAL": [255,127,80],
+		"INDIAN RED": [205,92,92],
+		"LIGHT CORAL": [240,128,128],
+		"DARK SALMON": [233,150,122],
+		"SALMON": [250,128,114],
+		"LIGHT SALMON": [255,160,122],
+		"ORANGE RED": [255,69,0],
+		"DARK ORANGE": [255,140,0],
+		"ORANGE": [255,165,0],
+		"GOLD": [255,215,0],
+		"DARK GOLDEN ROD": [184,134,11],
+		"GOLDEN ROD": [218,165,32],
+		"PALE GOLDEN ROD": [238,232,170],
+		"DARK KHAKI": [189,183,107],
+		"KHAKI": [240,230,140],
+		"OLIVE": [128,128,0],
+		"YELLOW": [255,255,0],
+		"YELLOW GREEN": [154,205,50],
+		"DARK OLIVE GREEN": [85,107,47],
+		"OLIVE DRAB": [107,142,35],
+		"LAWN GREEN": [124,252,0],
+		"CHART REUSE": [127,255,0],
+		"GREEN YELLOW": [173,255,47],
+		"DARK GREEN": [0,100,0],
+		"GREEN": [0,128,0],
+		"FOREST GREEN": [34,139,34],
+		"LIME": [0,255,0],
+		"LIME GREEN": [50,205,50],
+		"LIGHT GREEN": [144,238,144],
+		"PALE GREEN": [152,251,152],
+		"DARK SEA GREEN": [143,188,143],
+		"MEDIUM SPRING GREEN": [0,250,154],
+		"SPRING GREEN": [0,255,127],
+		"SEA GREEN": [46,139,87],
+		"MEDIUM AQUA MARINE": [102,205,170],
+		"MEDIUM SEA GREEN": [60,179,113],
+		"LIGHT SEA GREEN": [32,178,170],
+		"DARK SLATE GRAY": [47,79,79],
+		"TEAL": [0,128,128],
+		"DARK CYAN": [0,139,139],
+		"AQUA": [0,255,255],
+		"CYAN": [0,255,255],
+		"LIGHT CYAN": [224,255,255],
+		"DARK TURQUOISE": [0,206,209],
+		"TURQUOISE": [64,224,208],
+		"MEDIUM TURQUOISE": [72,209,204],
+		"PALE TURQUOISE": [175,238,238],
+		"AQUA MARINE": [127,255,212],
+		"POWDER BLUE": [176,224,230],
+		"CADET BLUE": [95,158,160],
+		"STEEL BLUE": [70,130,180],
+		"CORN FLOWER BLUE": [100,149,237],
+		"DEEP SKY BLUE": [0,191,255],
+		"DODGER BLUE": [30,144,255],
+		"LIGHT BLUE": [173,216,230],
+		"SKY BLUE": [135,206,235],
+		"LIGHT SKY BLUE": [135,206,250],
+		"MIDNIGHT BLUE": [25,25,112],
+		"NAVY": [0,0,128],
+		"DARK BLUE": [0,0,139],
+		"MEDIUM BLUE": [0,0,205],
+		"BLUE": [0,0,255],
+		"ROYAL BLUE": [65,105,225],
+		"BLUE VIOLET": [138,43,226],
+		"INDIGO": [75,0,130],
+		"DARK SLATE BLUE": [72,61,139],
+		"SLATE BLUE": [106,90,205],
+		"MEDIUM SLATE BLUE": [123,104,238],
+		"MEDIUM PURPLE": [147,112,219],
+		"DARK MAGENTA": [139,0,139],
+		"DARK VIOLET": [148,0,211],
+		"DARK ORCHID": [153,50,204],
+		"MEDIUM ORCHID": [186,85,211],
+		"PURPLE": [128,0,128],
+		"THISTLE": [216,191,216],
+		"PLUM": [221,160,221],
+		"VIOLET": [238,130,238],
+		"MAGENTA / FUCHSIA": [255,0,255],
+		"ORCHID": [218,112,214],
+		"MEDIUM VIOLET RED": [199,21,133],
+		"PALE VIOLET RED": [219,112,147],
+		"DEEP PINK": [255,20,147],
+		"HOT PINK": [255,105,180],
+		"LIGHT PINK": [255,182,193],
+		"PINK": [255,192,203],
+		"ANTIQUE WHITE": [250,235,215],
+		"BEIGE": [245,245,220],
+		"BISQUE": [255,228,196],
+		"BLANCHED ALMOND": [255,235,205],
+		"WHEAT": [245,222,179],
+		"CORN SILK": [255,248,220],
+		"LEMON CHIFFON": [255,250,205],
+		"LIGHT GOLDEN ROD YELLOW": [250,250,210],
+		"LIGHT YELLOW": [255,255,224],
+		"SADDLE BROWN": [139,69,19],
+		"SIENNA": [160,82,45],
+		"CHOCOLATE": [210,105,30],
+		"PERU": [205,133,63],
+		"SANDY BROWN": [244,164,96],
+		"BURLY WOOD": [222,184,135],
+		"TAN": [210,180,140],
+		"ROSY BROWN": [188,143,143],
+		"MOCCASIN": [255,228,181],
+		"NAVAJO WHITE": [255,222,173],
+		"PEACH PUFF": [255,218,185],
+		"MISTY ROSE": [255,228,225],
+		"LAVENDER BLUSH": [255,240,245],
+		"LINEN": [250,240,230],
+		"OLD LACE": [253,245,230],
+		"PAPAYA WHIP": [255,239,213],
+		"SEA SHELL": [255,245,238],
+		"MINT CREAM": [245,255,250],
+		"SLATE GRAY": [112,128,144],
+		"LIGHT SLATE GRAY": [119,136,153],
+		"LIGHT STEEL BLUE": [176,196,222],
+		"LAVENDER": [230,230,250],
+		"FLORAL WHITE": [255,250,240],
+		"ALICE BLUE": [240,248,255],
+		"GHOST WHITE": [248,248,255],
+		"HONEYDEW": [240,255,240],
+		"IVORY": [255,255,240],
+		"AZURE": [240,255,255],
+		"SNOW": [255,250,250],
+		"BLACK": [0,0,0],
+		"DIM GRAY / DIM GREY": [105,105,105],
+		"GRAY / GREY": [128,128,128],
+		"DARK GRAY / DARK GREY": [169,169,169],
+		"SILVER": [192,192,192],
+		"LIGHT GRAY / LIGHT GREY": [211,211,211],
+		"GAINSBORO": [220,220,220],
+		"WHITE SMOKE": [245,245,245],
+		"WHITE": [255,255,255]
+	}
+}

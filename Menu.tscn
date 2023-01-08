@@ -1,0 +1,168 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://fontfiles/menu_medium.tres" type="DynamicFont" id=1]
+[ext_resource path="res://fontfiles/menu_larger.tres" type="DynamicFont" id=2]
+[ext_resource path="res://extra_menu_scripts/side_triangles.gd" type="Script" id=3]
+
+[sub_resource type="StyleBoxEmpty" id=1]
+
+[node name="Node" type="Node"]
+
+[node name="BG" type="ColorRect" parent="."]
+margin_left = -14.0
+margin_top = -10.0
+margin_right = 1207.0
+margin_bottom = 912.0
+
+[node name="TopLabels" type="Node" parent="."]
+
+[node name="ColorRect" type="ColorRect" parent="TopLabels"]
+margin_left = 8.0
+margin_top = 8.0
+margin_right = 1192.0
+margin_bottom = 236.0
+rect_pivot_offset = Vector2( -61, 72 )
+color = Color( 0.752941, 0.752941, 0.752941, 1 )
+
+[node name="ColorRect" type="ColorRect" parent="TopLabels/ColorRect"]
+margin_right = 1184.0
+margin_bottom = 34.0
+rect_pivot_offset = Vector2( -61, 72 )
+color = Color( 0.862745, 0.0784314, 0.235294, 1 )
+
+[node name="ColorRect2" type="ColorRect" parent="TopLabels/ColorRect"]
+margin_top = 194.0
+margin_right = 1184.0
+margin_bottom = 228.0
+rect_pivot_offset = Vector2( -61, 72 )
+color = Color( 0.862745, 0.0784314, 0.235294, 1 )
+
+[node name="RichTextLabel" type="RichTextLabel" parent="TopLabels"]
+margin_left = 201.0
+margin_top = 109.0
+margin_right = 596.0
+margin_bottom = 221.0
+rect_pivot_offset = Vector2( 86, 103 )
+custom_colors/default_color = Color( 0, 0, 0, 1 )
+custom_colors/selection_color = Color( 0, 0, 0, 1 )
+custom_colors/font_color_selected = Color( 0, 0, 0, 1 )
+custom_fonts/normal_font = ExtResource( 1 )
+text = "medium"
+scroll_active = false
+
+[node name="RichTextLabel2" type="RichTextLabel" parent="TopLabels"]
+margin_left = 483.0
+margin_top = 12.0
+margin_right = 1183.0
+margin_bottom = 212.0
+custom_colors/default_color = Color( 0, 0, 0, 1 )
+custom_colors/selection_color = Color( 0, 0, 0, 1 )
+custom_colors/font_color_selected = Color( 0, 0, 0, 1 )
+custom_fonts/normal_font = ExtResource( 2 )
+text = "Quick"
+scroll_active = false
+
+[node name="MenuOptions" type="Node" parent="."]
+
+[node name="BeginLabel" type="RichTextLabel" parent="MenuOptions"]
+margin_left = 85.0
+margin_top = 251.0
+margin_right = 520.0
+margin_bottom = 350.0
+custom_colors/default_color = Color( 0, 0, 0, 1 )
+custom_colors/selection_color = Color( 0.0980392, 0.0901961, 0.0901961, 1 )
+custom_colors/font_color_selected = Color( 0.0862745, 0.0745098, 0.0745098, 1 )
+custom_fonts/normal_font = ExtResource( 1 )
+text = "Begin Game"
+scroll_active = false
+
+[node name="Control" type="Control" parent="MenuOptions"]
+margin_right = 40.0
+margin_bottom = 40.0
+script = ExtResource( 3 )
+
+[node name="Begin_Rect" type="Panel" parent="MenuOptions"]
+margin_left = 2.0
+margin_top = 246.0
+margin_right = 1201.0
+margin_bottom = 358.0
+custom_styles/panel = SubResource( 1 )
+
+[node name="TimerEnable" type="CheckButton" parent="MenuOptions"]
+margin_left = 30.0
+margin_top = 500.0
+margin_right = 100.0
+margin_bottom = 550.0
+pressed = true
+
+[node name="ShuffleOrder" type="CheckButton" parent="MenuOptions"]
+margin_left = 30.0
+margin_top = 600.0
+margin_right = 100.0
+margin_bottom = 650.0
+
+[node name="RandomizeLevels" type="CheckButton" parent="MenuOptions"]
+margin_left = 30.0
+margin_top = 700.0
+margin_right = 100.0
+margin_bottom = 750.0
+
+[node name="BeginLabel2" type="RichTextLabel" parent="MenuOptions"]
+margin_left = 100.0
+margin_top = 475.0
+margin_right = 1164.0
+margin_bottom = 575.0
+custom_colors/default_color = Color( 0, 0, 0, 1 )
+custom_colors/selection_color = Color( 0.0980392, 0.0901961, 0.0901961, 1 )
+custom_colors/font_color_selected = Color( 0.0862745, 0.0745098, 0.0745098, 1 )
+custom_fonts/normal_font = ExtResource( 1 )
+text = "Enable Timer"
+scroll_active = false
+
+[node name="BeginLabel3" type="RichTextLabel" parent="MenuOptions"]
+margin_left = 100.0
+margin_top = 575.0
+margin_right = 1164.0
+margin_bottom = 675.0
+custom_colors/default_color = Color( 0, 0, 0, 1 )
+custom_colors/selection_color = Color( 0.0980392, 0.0901961, 0.0901961, 1 )
+custom_colors/font_color_selected = Color( 0.0862745, 0.0745098, 0.0745098, 1 )
+custom_fonts/normal_font = ExtResource( 1 )
+text = "Enable Order Shuffle"
+scroll_active = false
+
+[node name="BeginLabel4" type="RichTextLabel" parent="MenuOptions"]
+margin_left = 100.0
+margin_top = 675.0
+margin_right = 1164.0
+margin_bottom = 775.0
+custom_colors/default_color = Color( 0, 0, 0, 1 )
+custom_colors/selection_color = Color( 0.0980392, 0.0901961, 0.0901961, 1 )
+custom_colors/font_color_selected = Color( 0.0862745, 0.0745098, 0.0745098, 1 )
+custom_fonts/normal_font = ExtResource( 1 )
+text = "Enable All Random Levels"
+scroll_active = false
+
+[node name="NoShapeKill" type="CheckButton" parent="MenuOptions"]
+margin_left = 30.0
+margin_top = 800.0
+margin_right = 106.0
+margin_bottom = 850.0
+
+[node name="BeginLabel5" type="RichTextLabel" parent="MenuOptions"]
+margin_left = 100.0
+margin_top = 775.0
+margin_right = 1164.0
+margin_bottom = 875.0
+custom_colors/default_color = Color( 0, 0, 0, 1 )
+custom_colors/selection_color = Color( 0.0980392, 0.0901961, 0.0901961, 1 )
+custom_colors/font_color_selected = Color( 0.0862745, 0.0745098, 0.0745098, 1 )
+custom_fonts/normal_font = ExtResource( 1 )
+text = "Enable Click-Nothing Kills"
+scroll_active = false
+
+[connection signal="gui_input" from="MenuOptions/Begin_Rect" to="MenuOptions/Control" method="_on_Begin_Rect_gui_input"]
+[connection signal="toggled" from="MenuOptions/TimerEnable" to="MenuOptions/Control" method="_on_TimerEnable_toggled"]
+[connection signal="toggled" from="MenuOptions/ShuffleOrder" to="MenuOptions/Control" method="_on_ShuffleOrder_toggled"]
+[connection signal="toggled" from="MenuOptions/RandomizeLevels" to="MenuOptions/Control" method="_on_RandomizeLevels_toggled"]
+[connection signal="toggled" from="MenuOptions/NoShapeKill" to="MenuOptions/Control" method="_on_ClickNothingKill_toggled"]
